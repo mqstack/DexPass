@@ -1,0 +1,31 @@
+group 'org.mqstack'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+sourceSets {
+    main {
+
+    }
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../repo'))
+        }
+    }
+}
+apply from: 'provided.gradle'

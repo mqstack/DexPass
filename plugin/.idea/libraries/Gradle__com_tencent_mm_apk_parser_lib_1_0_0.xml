@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.mm:apk-parser-lib:1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.mm/apk-parser-lib/1.0.0/8052617fc12b2df14492c6e05b0936ebb0d8b4fe/apk-parser-lib-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.mm/apk-parser-lib/1.0.0/b0f8dfb87f4431c1f16c453685eb7ed6661e28e8/apk-parser-lib-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
