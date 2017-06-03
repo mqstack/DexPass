@@ -27,8 +27,6 @@ class DexPassPlugin implements Plugin<Project> {
             project.logger.error(config.inputMessage)
             project.tasks.create('greetingTask', GreetingTask)
 
-            //hook compile${variantName}JavaWithJavac copy
-
             def android = project.extensions.android
             android.applicationVariants.all { variant ->
 
